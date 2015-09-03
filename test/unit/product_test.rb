@@ -28,6 +28,7 @@ class ProductTest < ActiveSupport::TestCase
     bad.each do |name|
       assert new_product(name).invalid?, "{name} shouldn't be valid"
     end
+
 end
     product.price = -1
     assert product.invalid?
@@ -40,3 +41,21 @@ end
     assert product.valid?
   end
 
+  test "product is not valid without a unique title" do
+    product = Product.new(title: products(:ruby).title,
+         description: "yyy",
+         price: 1,
+    image_url: "fred.gif")
+    assert !product.save
+    assert_equal "has already been taken", product.errors[:title].join('; ')
+  end
+
+  test "product is not valid without a unique title - i18n" do
+    product = Product.new(title: products(:ruby).title,
+        description: "yyy",
+        price: 1,
+        image_url: "fred.gif")
+    assert !product.save
+    assert_equal I18n.translate('activerecord.errors.message.taken'),
+        product.errors[:title].join('; ')
+  end

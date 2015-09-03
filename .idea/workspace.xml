@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b3db991-1c8d-4f0d-8a08-29ba329be03c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/product_test.rb" afterPath="$PROJECT_DIR$/test/unit/product_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/products.yml" afterPath="$PROJECT_DIR$/test/fixtures/products.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="depot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
@@ -81,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product_test.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="product_test.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/product_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+            <state line="58" column="69" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.8192771" vertical-offset="394" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
@@ -636,7 +634,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20150825153339_create_products.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
+        <state line="12" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
@@ -738,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/product_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="22" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
@@ -755,6 +748,13 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/product_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="69" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.8192771" vertical-offset="394" max-vertical-offset="1005">
           <folding />
         </state>
       </provider>
